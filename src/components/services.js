@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './services.css';
+
 function Service(props) {
   return <li>{props.service}</li>
 }
@@ -14,7 +16,7 @@ function ServiceList(props) {
         <ion-icon name={icon}></ion-icon>
         <h3>{title}</h3>
         <ul className='service-list'>
-          {services.map((service) => <Service key={service} service={service}/>)}
+          {services.map((service, index) => <Service key={index} service={service}/>)}
         </ul>
       </div>
     </div>
@@ -25,7 +27,7 @@ function CategoryColumns(props) {
   const categories = props.categories;
   return (
     <div className="row animate-in justify-content-center" data-anim-type="fade-in-up">
-      {categories.map((category) => <ServiceList key={category} category={category}/>)}
+      {categories.map((category, index) => <ServiceList key={index} category={category}/>)}
     </div>
   )
 }

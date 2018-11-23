@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './work.css';
+
 import SRT_Thumb from '../assets/img/portfolio/thumb1.jpg';
 import SRT_BC from '../assets/img/portfolio/srt-bc.jpg';
 import SRT_Logo from '../assets/img/portfolio/srt-logo.jpg';
@@ -37,15 +39,15 @@ function Gallery(props) {
   const title = props.client.title;
   const thumb = props.client.thumbURL;
   const galleryURLs = props.client.galleryURLs;
-  let first = galleryURLs[0];
+  let firstURL = galleryURLs[0];
   return (
     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 html code">
       <div className="work-wrapper">
-        <a data-fancybox="gallery" href={first}>
+        <a data-fancybox="gallery" href={firstURL}>
           <img src={thumb} className="img-fluid" alt={title} />
           <h4>{title}&nbsp;&nbsp;<ion-icon name="expand"></ion-icon></h4>
         </a>
-        {galleryURLs.slice(1).map((url) => <GalleryImg key={url.id} url={url}/>)}
+        {galleryURLs.slice(1).map((url, index) => <GalleryImg key={index} url={url}/>)}
       </div>
     </div>
   )
@@ -55,7 +57,7 @@ function PortfolioColumns(props) {
   const clients = props.clients;
   return (
     <div className="row text-center animate-in justify-content-center" data-anim-type="fade-in-up" id="work-div">
-      {clients.map((client) => <Gallery key={client.id} client={client}/>)}
+      {clients.map((client, index) => <Gallery key={index} client={client}/>)}
     </div>
   )
 }

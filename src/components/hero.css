@@ -1,0 +1,75 @@
+/* ============================================================
+
+    HERO SECTION STYLES
+
+    ============================================================ */
+
+#home {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .social {
+  display: block;
+  margin: 50px 20px;
+}
+#home .scroll-me {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  #home .container {
+    height: 450px;
+  }
+}
+.carousel-item {
+  padding: 0 10px 5px 10px;
+}
+.carousel-item h1 {
+  line-height: 50px;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px #000000;
+}
+.carousel-item p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 25px 20px;
+  text-shadow: 2px 2px #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.25em;
+  width: auto;
+}
+#home .row .carousel-control-next,
+#home .row .carousel-control-prev {
+  width: 10% !important;
+  top: 100px;
+  bottom: auto;
+  height: 60vh;
+  cursor: pointer;
+  z-index: 100;
+}
+.carousel-indicators {
+  position: relative;
+}
+.carousel-indicators li {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+@media (max-width: 767px) {
+  #home {
+    padding-top: 90px !important;
+  }
+}
+.cta-desc {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+}

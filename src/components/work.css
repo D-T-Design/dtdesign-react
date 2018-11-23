@@ -1,0 +1,77 @@
+/* ============================================================
+  
+                      WORK SECTION STYLES
+  
+  ============================================================ */
+
+#work {
+  background: #222222;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(32, 79, 54, 0.85) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(32, 79, 54, 0.85) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(32, 79, 54, 0.85) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#204f36',GradientType=0 );
+}
+.work-wrapper {
+  padding: 0;
+  margin-bottom: 40px;
+  /*background-color: #000000;;
+  background-color: rgba(0,0,0,0.5);*/
+  transition: all 0.25s ease-in-out;
+  border-bottom: 3px solid transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.work-wrapper:hover {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-top: 1px solid #37e25b;
+  border-bottom: 3px solid #37e25b;
+  border-left: 1px solid #37e25b;
+  border-right: 1px solid #37e25b;
+  box-shadow: 0 0 15px #37e25b;
+}
+.work-wrapper a,
+.work-wrapper a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.work-wrapper a h4 {
+  padding-top: 10px;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.fancybox-nav span {
+  visibility: visible;
+}
+a[data-fancybox="gallery"] ion-icon {
+  float: right;
+  color: rgb(57, 171, 111);
+  transition: all 0.25 ease-in-out;
+  margin-right: 10px;
+}
+.work-wrapper a ion-icon svg {
+  transition: all 0.25 ease-in-out;
+}
+.work-wrapper:hover a ion-icon {
+  color: white;
+}
+.isotope-item:last-child .work-wrapper {
+  margin-bottom: 0;
+}

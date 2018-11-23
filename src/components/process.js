@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './process.css';
+
 function Step(props) {
   return <li>{props.step}</li>
 }
@@ -12,7 +14,7 @@ function ProcessList(props) {
       <div className="process-wrapper">
         <h3>{title}</h3>
         <ul className="process-list">
-            {steps.map((step) => <Step key={step} step={step}/>)}
+            {steps.map((step, index) => <Step key={index} step={step}/>)}
         </ul>
       </div>
     </div>
@@ -23,7 +25,7 @@ function ProcessColumns(props) {
   const categories = props.categories;
   return (
     <div className="row animate-in justify-content-center" data-anim-type="fade-in-up">
-      {categories.map((category) => <ProcessList key={category} category={category}/>)}
+      {categories.map((category, index) => <ProcessList key={index} category={category}/>)}
     </div>
   )
 }

@@ -1,0 +1,65 @@
+/* ============================================================
+  
+                      ABOUT SECTION STYLES
+  
+  ============================================================ */
+
+.bg-about {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  margin-bottom: -100vh;
+}
+#about {
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-wrapper {
+  padding: 10px 20px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(57, 171, 111);
+  cursor: default;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+.about-wrapper:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: default;
+}
+.about-wrapper h5 {
+  color: rgb(57, 171, 111);
+}
+.about-wrapper .description {
+  padding: 20px 20px 20px;
+  text-align: center;
+  width: 100%;
+}
+.about-wrapper .description h5 {
+  color: rgb(57, 171, 111);
+}
+.about-wrapper .description strong {
+  color: rgb(57, 171, 111);
+}
+.about-wrapper img {
+  max-height: 100%;
+  width: 100%;
+}
+.about-wrapper .description img {
+  max-height: 100%;
+  width: 100%;
+}
+div:first-child > .about-wrapper,
+div:first-child > .about-wrapper .description {
+  padding: 0;
+  overflow: hidden;
+}

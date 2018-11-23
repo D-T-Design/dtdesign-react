@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './contact.css';
+
 import ContactForm from './contact.form';
 import ContactInfo from './contact.info';
 import ContactSocial from './contact.social';

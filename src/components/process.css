@@ -1,0 +1,53 @@
+/* ============================================================
+  
+                      PROCESS SECTION STYLES
+  
+  ============================================================ */
+
+#process {
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.process-wrapper {
+  padding: 40px 10px 20px 10px;
+  border-top-left-radius: 5px;
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: default;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 77px auto;
+}
+.process-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: default;
+}
+.process-wrapper h3 {
+  font-family: "Oswald", sans-serif;
+}
+.process-wrapper .process-list {
+  text-align: left;
+  border: none;
+  background-color: transparent;
+}
+div:nth-child(1) > .process-wrapper {
+  background-image: url("../assets/img/step1.svg");
+}
+div:nth-child(2) > .process-wrapper {
+  background-image: url("../assets/img/step2.svg");
+}
+div:nth-child(3) > .process-wrapper {
+  background-image: url("../assets/img/step3.svg");
+}
+div:nth-child(4) > .process-wrapper {
+  background-image: url("../assets/img/step4.svg");
+}
+div:nth-child(5) > .process-wrapper {
+  background-image: url("../assets/img/step5.svg");
+}
+div:nth-child(6) > .process-wrapper {
+  background-image: url("../assets/img/step6.svg");
+}
