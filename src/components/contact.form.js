@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ContactForm extends Component {
   render() {
     return (
-      <form id="contact-form" method="post" netlify name="contact-form">
+      <form id="contact-form" method="post" data-netlify="true" name="contact-form">
         <div className="row justify-content-center">
           <div className="col-xs-8 col-sm-6 col-md-4 col-lg-4">
             <div className="form-group">
