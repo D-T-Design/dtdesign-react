@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ContactForm extends Component {
   render() {
     return (
-      <form id="contact-form" method="post">
+      <form id="contact-form" method="post" action="/thankyou.html">
         <div className="row justify-content-center">
           <div className="col-xs-8 col-sm-6 col-md-4 col-lg-4">
             <div className="form-group">
@@ -35,10 +35,10 @@ class ContactForm extends Component {
           </div>
           <div className="col-xs-8 col-sm-12 col-md-8 col-lg-8">
             <div className="form-group">
-              <label htmlFor="description">Comments / Questions:</label>
+              <label htmlFor="message">Comments / Questions:</label>
               <textarea
-                id="description"
-                name="description"
+                id="message"
+                name="message"
                 placeholder="Describe your project, ask a question or just say hi!"
                 required
               />
