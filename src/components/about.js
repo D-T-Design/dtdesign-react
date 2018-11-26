@@ -11,7 +11,7 @@ class About extends Component {
         <div className="container">
           <div className="row text-center header animate-in" data-anim-type="fade-in-up">
             <div className="col-12">
-              <h3>About Me</h3>
+              <h3>{this.props.about.sectionTitle}</h3>
               <hr />
             </div>
           </div>
@@ -26,10 +26,10 @@ class About extends Component {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               <div className="about-wrapper">
                 <div className="description scroll-me">
-                  <h2>What Can I Help You With?</h2>
-                  <p>My name is <strong>David Torres</strong>, and I am a self-taught Graphic Designer living in Las Vegas, NV.&nbsp;&nbsp;Being in the design and printing business since 2007, I have seen all kinds of designs, good and bad! My favorite part of working in this industry is meeting business owners and bringing their ideas into reality.</p>
-                  <p>While my lifelong passion has been making art and learning new skills, the purpose of this site is not just to make quality logos, websites or business cards!&nbsp;&nbsp;My job is to find out your business goals and if my services will help achieve them, guide you to success!</p>
-                  <a href="#contact" className=" btn button-custom btn-custom-two">Let's Start Your Design!</a>
+                  <h2>{this.props.about.headline}</h2>
+                  <p>{this.props.about.bodyText}</p>
+                  <p>{this.props.about.bodyText2}</p>
+                  <a href="#contact" className=" btn button-custom btn-custom-two">{this.props.about.ctaText}</a>
                 </div>
               </div>
             </div>

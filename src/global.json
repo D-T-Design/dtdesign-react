@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "headlines": [
+      {
+        "mainHeadline": "I help small businesses with graphic design!",
+        "content": "Tired of the same look? Starting a new business? Let's get in touch and we will work together to bring your ideas to life!"
+      },
+      {
+        "mainHeadline": "Discover the Hidden Value of Your Business!",
+        "content": "Branding design transforms the perception of your business, unlocking undiscovered value and producing more leads."
+      },
+      {
+        "mainHeadline": "Boost Profit Growth and Reach New Clients!",
+        "content": "Send your message with quality Print and Sign designs. Bold designs and consistent brand adherence attracts new customers."
+      }
+    ],
+    "ctaSection": {
+      "content": "Graphic design is an investment toward your success!",
+      "ctaText": "Here's What You Need"
+    }
+  },
+  "services": {
+    "headline": "Services",
+    "categories": [
+      {
+        "title": "Logos & Branding",
+        "icon": "bulb",
+        "services": [
+          "Be Distinctive",
+          "Improve Response",
+          "Increase Referrals",
+          "Maximize Profits",
+          "Refresh Your Image",
+          "Improve Quality",
+          "Achieve a New Level of Success",
+          "A Bargain For The Value"
+        ]
+      },
+      {
+        "title": "Print Design",
+        "icon": "print",
+        "services": [
+          "Business Cards",
+          "Flyers & Brochures",
+          "Envelopes & Letterhead",
+          "Table Tents, Placemats & Menus",
+          "Door Hangers & Stickers",
+          "Presentation Folders",
+          "Office Forms",
+          "Greeting Cards, Invitations & Postcards"
+        ]
+      },
+      {
+        "title": "Sign & Storefront Design",
+        "icon": "image",
+        "services": [
+          "Decals, Labels & Building Signs",
+          "Posters, Interior Signs & Wall Graphics",
+          "Banners, Flags, Spinners & A-Frames",
+          "Realty, Yard & Site Signs",
+          "Regulatory Signs",
+          "Wayfinding, Menus & Directories",
+          "Vehicle Graphics - Fleet & Wraps",
+          "T-Shirt & Uniform Design"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "heading": "My Process",
+    "steps": [
+      {
+        "title": "Discovery",
+        "steps": [
+          "Discuss goals & solutions",
+          "Determine scope of project & budget",
+          "Identify client audience",
+          "Explore market conditions & competition"
+        ]
+      },
+      {
+        "title": "Proposal",
+        "steps": [
+          "Present proposal to illustrate project goals",
+          "Define details of audience & competition",
+          "Propose deliverable services & quote value"
+        ]
+      },
+      {
+        "title": "Brainstorm & Design",
+        "steps": [
+          "Research and conceptualize ideas",
+          "Plan & sketch initial designs",
+          "Create first draft digitally",
+          "Formalize artwork presentation"
+        ]
+      },
+      {
+        "title": "Present Concepts",
+        "steps": [
+          "Engage with client and present artwork",
+          "Exchange thoughts regarding concepts",
+          "Suggest revisions based on discussion"
+        ]
+      },
+      {
+        "title": "Revisions & Finalization",
+        "steps": [
+          "Adjust digital rendering",
+          "Continue dialogue and revisions",
+          "Prepare finalized presentation for approval"
+        ]
+      },
+      {
+        "title": "Approval & Deliveries",
+        "steps": [
+          "Finalize contract upon approval",
+          "Release deliverable files & rights",
+          "Follow up contact to ensure goals have been accomplished"
+        ]
+      }
+    ]
+  },
+  "clients": [
+    {
+      "title": "S-R-T Services, Inc.",
+      "thumbURL": "portfolio/thumb1.jpg",
+      "galleryURLs": [
+        "portfolio/srt-logo.jpg",
+        "../assets/img/portfolio/srt-bc.jpg"
+      ]
+    },
+    {
+      "title": "Outta Tune Guitar Shop",
+      "thumbURL": "../assets/img/portfolio/thumb3.jpg",
+      "galleryURLs": [
+        "../assets/img/portfolio/outtatune-logo.jpg",
+        "../assets/img/portfolio/outtatune-paper.jpg",
+        "../assets/img/portfolio/outtatune-flyer.jpg"
+      ]
+    },
+    {
+      "title": "Sunny Side Up Breakfast Café",
+      "thumbURL": "../assets/img/portfolio/thumb2.jpg",
+      "galleryURLs": [
+        "../assets/img/portfolio/sunnyside-logo.jpg",
+        "../assets/img/portfolio/sunnyside-bc.jpg",
+        "../assets/img/portfolio/sunnyside-sign.jpg"
+      ]
+    },
+    {
+      "title": "Treats to You Ice Cream",
+      "thumbURL": "../assets/img/portfolio/thumb5.jpg",
+      "galleryURLs": [
+        "../assets/img/portfolio/treats-logo.jpg",
+        "../assets/img/portfolio/treats-truck.jpg",
+        "../assets/img/portfolio/treats-bc.jpg"
+      ]
+    },
+    {
+      "title": "Fight Like A Girl T-Shirts",
+      "thumbURL": "../assets/img/portfolio/thumb4.jpg",
+      "galleryURLs": [
+        "../assets/img/portfolio/flag-logo.jpg",
+        "../assets/img/portfolio/flag-shirt.jpg"
+      ]
+    },
+    {
+      "title": "Nevada Justice Attorneys",
+      "thumbURL": "../assets/img/portfolio/thumb6.jpg",
+      "galleryURLs": [
+        "../assets/img/portfolio/nvjustice-logo.jpg",
+        "../assets/img/portfolio/nvjustice-sign.jpg",
+        "../assets/img/portfolio/nvjustice-press.jpg",
+        "../assets/img/portfolio/nvjustice-silver.jpg"
+      ]
+    }
+  ],
+  "about": {
+    "sectionTitle": "About Me",
+    "headline": "What Can I Help You With?",
+    "bodyText": "My name is David Torres, and I am a self-taught Graphic Designer living in Las Vegas, NV.  Being in the design and printing business since 2007, I have seen all kinds of designs, good and bad! My favorite part of working in this industry is meeting business owners and bringing their ideas into reality.",
+    "bodyText2": "While my lifelong passion has been making art and learning new skills, the purpose of this site is not just to make quality logos, websites or business cards!  My job is to find out your business goals and if my services will help achieve them, guide you to success!",
+    "ctaText": "Let's Start Your Design!"
+  }
+}
