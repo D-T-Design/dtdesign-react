@@ -7,6 +7,7 @@ class ContactForm extends Component {
         <div className="row justify-content-center">
           <div className="col-xs-8 col-sm-6 col-md-4 col-lg-4">
             <div className="form-group">
+              <input type="hidden" name="form-name" value="contact-form" />
               <label htmlFor="name">Your Name:</label>
               <input
                 type="text"
