@@ -6,11 +6,20 @@
   color: rgb(57, 171, 111);
   text-align: center;
 }
-.footer-div a,
-.footer-div a:hover {
-  font-size: 10px;
-  color: #fff;
+.footer-div p {
+  color: #aaa;
+  font-size: 14px;
+  font-family: fira-sans;
+  margin-top: 0.5em;
+}
+.footer-div a {
+  color: #FFF;
   text-decoration: none;
+  transition: 0.25s;
+}
+
+.footer-div a:hover {
+  color: rgb(57, 171, 111);
 }
 #footer {
   background-color: rgba(0, 0, 0, 0.75) !important;
