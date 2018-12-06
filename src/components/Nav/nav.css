@@ -141,7 +141,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#204f36', endColorstr='#222222',GradientType=0 );
 }
 .navbar-toggler .navbar-toggler-icon {
-  background-image: url("../assets/img/toggler-icon.svg");
+  background-image: url("../../assets/img/toggler-icon.svg");
 }
 
 @media (max-width: 992px) {

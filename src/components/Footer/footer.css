@@ -1,0 +1,17 @@
+
+.footer-div {
+  font-family: Oswald;
+  padding-top: 25px;
+  font-size: 14px;
+  color: rgb(57, 171, 111);
+  text-align: center;
+}
+.footer-div a,
+.footer-div a:hover {
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+#footer {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}

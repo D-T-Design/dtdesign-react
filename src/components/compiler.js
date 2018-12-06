@@ -1,10 +1,10 @@
-import Nav from "./nav";
-import Hero from "./hero";
-import Services from "./services";
-import Process from "./process";
-import Work from "./work";
-import About from "./about";
-import Contact from "./contact";
-import Footer from "./footer";
+import Nav from "./Nav/nav";
+import Hero from "./Hero/hero";
+import Services from "./Services/services";
+import Process from "./Process/process";
+import Work from "./Work/work";
+import About from "./About/about";
+import Contact from "./Contact/contact";
+import Footer from "./Footer/footer";
 
 export { Nav, Hero, Services, Process, Work, About, Contact, Footer }

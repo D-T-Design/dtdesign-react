@@ -28,6 +28,14 @@
   font-size: 30px;
   text-align: center;
 }
+.contact-wrapper a {
+  color: white;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.contact-wrapper a:hover {
+  color: #37e25b;
+}
 .social-below {
   display: block;
   margin-top: 5px;
@@ -76,19 +84,4 @@
 }
 .contact-submit .form-group label {
   text-align: left !important;
-}
-.footer-div {
-  padding-top: 25px;
-  font-size: 12px;
-  color: rgb(57, 171, 111);
-  text-align: center;
-}
-.footer-div a,
-.footer-div a:hover {
-  font-size: 10px;
-  color: #fff;
-  text-decoration: none;
-}
-#footer {
-  background-color: rgba(0, 0, 0, 0.75) !important;
 }

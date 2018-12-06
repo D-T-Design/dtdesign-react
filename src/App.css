@@ -8,7 +8,8 @@ html {
   height: 100%;
 }
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: fira-sans, sans-serif;
+  font-weight: 300;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -31,8 +32,8 @@ footer {
 }
 .header {
   font-family: "Oswald", sans-serif;
+  font-weight: 300;
   padding-bottom: 40px;
-  text-transform: uppercase;
 }
 .header hr {
   width: 50px;
@@ -54,6 +55,7 @@ h5,
 h6,
 div {
   text-rendering: optimizeLegibility;
+  font-weight: 300;
 }
 
 /* ============================================================
@@ -70,6 +72,7 @@ div {
   margin: 25px 5px 5px 0px;
   margin: 5px;
   font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 .btn-custom-one {
   background-color: transparent;
