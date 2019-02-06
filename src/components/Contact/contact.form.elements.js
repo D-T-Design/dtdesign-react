@@ -18,7 +18,6 @@ const InputHalf = props => {
           placeholder={props.placeholder}
           className="form-control"
           required={props.required}
-          pattern={props.pattern}
         />
       </div>
     </div>

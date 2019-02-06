@@ -6,7 +6,7 @@ const ContactForm = () => (
     <div className="row justify-content-center">
       <input type="hidden" name="form-name" value="contact-form" />
       <InputHalf inputType="name" label="Your Name" placeholder="John Doe" pattern="([A-z0-9À-ž\s,'-]){2,}"/>
-      <InputHalf inputType="email" label="Your Email" placeholder="email@email.com" pattern=""/>
+      <InputHalf inputType="email" label="Your Email" placeholder="email@email.com"/>
       <TextareaSubmit label="What's on your mind?" placeholder="Describe your project, ask a question or just say hi!" buttonText="Send Message" />
     </div>
   </form>
