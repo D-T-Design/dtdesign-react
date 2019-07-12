@@ -6,7 +6,7 @@ const ContactInfo = () => (
     <h3>Get In Touch</h3>
     <i className="ion-ios-telephone" />
     <p>
-      <a href="tel:7027510881">702-751-0881</a>
+      <a href="tel:7024666488">702-466-6488</a>
     </p>
     <i className="ion-email" />
     <p>
